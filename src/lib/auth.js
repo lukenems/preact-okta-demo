@@ -1,8 +1,8 @@
 import { h } from 'preact';
 import { route } from 'preact-router';
-import OktaSignIn from '@okta/okta-signin-widget';
+import OktaSignIn from '@okta/okta-signin-widget/dist/js/okta-sign-in.min.js';
 import '@okta/okta-signin-widget/dist/css/okta-sign-in.min.css';
-// import '@okta/okta-signin-widget/dist/css/okta-theme.css';
+import '@okta/okta-signin-widget/dist/css/okta-theme.css';
 
 class Auth {
 	constructor() {
